@@ -1,0 +1,9 @@
+# System / IDE / venv
+.DS_Store
+.idea
+.venv
+__pycache__
+
+# Data
+/experiments
+
