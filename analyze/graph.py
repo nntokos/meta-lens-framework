@@ -393,7 +393,6 @@ if __name__ == "__main__":
     if not os.path.exists(user_events_path):
         print(f"[{script_name}] JSON file {user_events_path} does not exist. Continuing without user events.")
         user_events = []
-        plot_ovr_metrics_enabled = False
     else:
         with open(user_events_path, 'r') as dict_file:
             user_events = json.load(dict_file)
